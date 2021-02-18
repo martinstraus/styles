@@ -1,0 +1,24 @@
+/* Color scheme generated with https://terminal.sexy/ */
+
+body {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+:root {
+    --dark-terminal-background-color: #404040;
+    --dark-terminal-text-color: #00CC66;
+    --dark-sample-text-color: #E0E0E0;
+}
+
+code > pre {
+    background-color: var(--dark-terminal-background-color);
+    padding-top: 1em;
+}
+
+code.terminal > pre {
+    color: var(--dark-terminal-text-color);
+}
+
+code.sample > pre {
+    color: var(--dark-sample-text-color);
+}
